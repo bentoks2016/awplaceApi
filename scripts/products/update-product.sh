@@ -10,7 +10,8 @@ curl "http://localhost:4741/products/${id}" \
       "name": "'"${NAME}"'",
       "price":"'"${PRICE}"'",
       "description":"'"${DESCRIPTION}"'",
-      "location":"'${LOCATION}'"
+      "location":"'${LOCATION}'",
+      "image":"'"${IMAGE}"'"
 
     }
   }'
